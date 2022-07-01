@@ -1,9 +1,12 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import Pages from "./PAGES/FrontPage";
 
 function App() {
-  return <div className="App"></div>;
+  return <div className="App">
+    <Pages />
+  </div>;
 }
 
 export default App;
