@@ -1,3 +1,4 @@
+import BotSlide from "../Components/BotSlide";
 import NavBar from "../Components/NavBar";
 import SideBar from "../Components/SideBar";
 
@@ -14,6 +15,7 @@ function Head() {
     <div style={headBG}>
       <NavBar />
       <SideBar />
+      <BotSlide />
     </div>
   );
 }
