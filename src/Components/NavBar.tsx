@@ -11,7 +11,7 @@ const NavBarStyle: React.CSSProperties = {
 };
 
 function NavBar() {
-  return <div style={NavBarStyle}>WORK NAVBAR HERE</div>;
+  return <div style={NavBarStyle}>LIMUEL THE MIasdasdSFIT</div>;
 }
 
 export default NavBar;
