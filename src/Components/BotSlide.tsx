@@ -8,6 +8,7 @@ const BotSlideStyle: React.CSSProperties = {
   maxWidth: "1400px",
   width: "100%",
   color: "white",
+  backgroundColor: "red",
 };
 
 function BotSlide() {
