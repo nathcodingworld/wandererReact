@@ -9,7 +9,11 @@ const SideBarStyle: React.CSSProperties = {
 };
 
 function SideBar() {
-  return <div style={SideBarStyle}>WORK SideBar HERE</div>;
+  return (
+    <div style={SideBarStyle}>
+      <img src={`${process.env.PUBLIC_URL}/logo512.png`} height="100px" width="100px"></img>
+    </div>
+  );
 }
 
 export default SideBar;
